@@ -11,7 +11,7 @@ It abstracts several patterns involving controlled-forms:
 ## use
 
 ```bash
-$ npm install use-form-reducer
+$ npm install useformreducer
 ```
 
 ## use
@@ -20,7 +20,7 @@ Within the component that holds the form:
 
 ```jsx
 // import the package
-import useFormReducer from 'use-form-reducer';
+import useFormReducer from 'useformreducer';
 
 // set the form state hook
 const [form, setForm] = useFormReducer();

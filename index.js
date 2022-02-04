@@ -1,14 +1,14 @@
 import { useReducer } from 'react';
 import PropTypes from 'prop-types';
 
-const useFormReducer = (
+function useFormReducer(
   errorSetter,
   customInitForm,
   customValidator,
   customReducer,
   actionDispatcher,
   actionCreators
-) => {
+) {
   const initForm = customInitForm || {
     email: '',
     password: '',
@@ -64,7 +64,7 @@ const useFormReducer = (
   };
 
   return [state, customDispatch];
-};
+}
 
 useFormReducer.propTypes = {
   errorSetter: PropTypes.func,

@@ -1,5 +1,5 @@
 {
-  "name": "use-form-reducer",
+  "name": "useformreducer",
   "version": "1.0.0",
   "description": "React controlled-form hook via react.useReducer",
   "main": "index.js",
