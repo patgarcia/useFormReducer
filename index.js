@@ -75,4 +75,4 @@ useFormReducer.propTypes = {
   actionCreators: PropTypes.objectOf(PropTypes.shape()),
 };
 
-module.exports = useFormReducer;
+export default useFormReducer;
